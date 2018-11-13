@@ -1,22 +1,26 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     
-    
-    
+<meta name="description" content="">
+<title>Robert Hales | twitter dada</title>
+
+
     <link rel="stylesheet" href="css/styles.min.css">
     <script src="js/main.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js" async></script>
 </head>
 
 <body>
-    <div class="container">
 
-        
+    
 <nav class="navbar">
 
     <a href="index.html" class="logo">
@@ -44,14 +48,15 @@
 </nav>
 
 
-        <div class="content">
+    <div id="barba-wrapper">
+        <div class="barba-container">
             
 
 
 
 <h1>twitter dada poems</h1>
 
-            <div class="gallery">
+            <div class="gallery work" id="twitter-dada">
                 <div class="gallery-item intro-text">
                     <p>
                         this project is a 21st-century re-imaging of the creation of “dada poems”, originally the poems were created by cutting up a newspaper article into individual words, shaking these words in a bag, selecting one at random, copying it down, then repeating until the bag is empty.
@@ -66,17 +71,48 @@
                         the code can be found <a href="https://repl.it/@roberthales/TwitterDada" target="_blank">here.</a>
                     </p>
                 </div>
-
+                
+                <!--  TODO: optimise these images -->
                 <div class="gallery-item" id="art-dada-poem">
-                    <img src="images/art%20dada%20poem.png" />
+                    
+<a href="images/work/twitter-dada-poems/art-dada-poem-large.jpg" data-fancybox data-caption="&amp;quot;art&amp;quot; digital, 2018" class="no-barba">
+    
+<picture>
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem.webp" alt="&amp;quot;art&amp;quot; digital, 2018" type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem.jpg" alt="&amp;quot;art&amp;quot; digital, 2018" type="image/jpeg" />
+    <img src="images/work/twitter-dada-poems/art-dada-poem.jpg" alt="&amp;quot;art&amp;quot; digital, 2018" />
+</picture>
+
+</a>
+
                 </div>
 
                 <div class="gallery-item" id="brexit-dada-poem">
-                    <img src="images/brexit%20dada%20poem.png" />
+                    
+<a href="images/work/twitter-dada-poems/brexit-dada-poem-large.jpg" data-fancybox data-caption="&amp;quot;brexit&amp;quot; digital, 2018" class="no-barba">
+    
+<picture>
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem.webp" alt="&amp;quot;brexit&amp;quot; digital, 2018" type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem.jpg" alt="&amp;quot;brexit&amp;quot; digital, 2018" type="image/jpeg" />
+    <img src="images/work/twitter-dada-poems/brexit-dada-poem.jpg" alt="&amp;quot;brexit&amp;quot; digital, 2018" />
+</picture>
+
+</a>
+
                 </div>
 
                 <div class="gallery-item" id="fake-news-dada-poem">
-                    <img src="images/fake%20news%20dada%20poem.png">
+                    
+<a href="images/work/twitter-dada-poems/fake-news-dada-poem-large.jpg" data-fancybox data-caption="&amp;quot;fake news&amp;quot; digital, 2018" class="no-barba">
+    
+<picture>
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem.webp" alt="&amp;quot;fake news&amp;quot; digital, 2018" type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem.jpg" alt="&amp;quot;fake news&amp;quot; digital, 2018" type="image/jpeg" />
+    <img src="images/work/twitter-dada-poems/fake-news-dada-poem.jpg" alt="&amp;quot;fake news&amp;quot; digital, 2018" />
+</picture>
+
+</a>
+
                 </div>
 
             </div>
@@ -88,7 +124,7 @@
         
              
 <a href="digital-paintings.html" class="gallery-item" >
-    
+
     
 <picture>
     <source srcset="images/thumbs/digital-painting.webp" alt="Digital Painting link" type="image/webp" />
@@ -106,7 +142,7 @@
         
              
 <a href="mixed-media.html" class="gallery-item" >
-    
+
     
 <picture>
     <source srcset="images/thumbs/mixed-media.webp" alt="Mixed Media link" type="image/webp" />
@@ -126,7 +162,7 @@
         
              
 <a href="photography.html" class="gallery-item" >
-    
+
     
 <picture>
     <source srcset="images/thumbs/photography.webp" alt="Photography link" type="image/webp" />
@@ -144,7 +180,7 @@
         
              
 <a href="screen-prints.html" class="gallery-item" >
-    
+
     
 <picture>
     <source srcset="images/thumbs/screen-prints.webp" alt="screen prints link" type="image/webp" />
@@ -162,7 +198,7 @@
         
              
 <a href="videos.html" class="gallery-item" >
-    
+
     
 <picture>
     <source srcset="images/thumbs/videos.webp" alt="videos link" type="image/webp" />
@@ -181,14 +217,16 @@
 
 
         </div>
-        <footer>
-            <a href="index.html">work</a>
-            <a href="about.html">about</a>
-            <a href="contact.html">contact</a>
-            <span>*im just sitting here looking at pretty colours.</span>
-        </footer>
     </div>
 
+    <footer>
+        <a href="index.html">work</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+        <span>*im just sitting here looking at pretty colours.</span>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
 </body>
 
 </html>
