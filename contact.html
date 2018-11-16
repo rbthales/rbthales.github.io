@@ -10,12 +10,12 @@
 
     
 <meta name="description" content="">
-<title>Robert Hales | contact</title>
+<title>robert hales | contact</title>
 
 
     <link rel="stylesheet" href="css/styles.min.css">
     <script src="js/main.min.js" async></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js" async></script>
+    
 </head>
 
 <body>
@@ -26,8 +26,8 @@
     <a href="index.html" class="logo">
         
 <picture>
-    <source srcset="images/logo.webp" alt="home page link" type="image/webp" />
-    <source srcset="images/logo.jpg" alt="home page link" type="image/jpeg" />
+    <source srcset="images/logo.webp" type="image/webp" />
+    <source srcset="images/logo.jpg" type="image/jpeg" />
     <img src="images/logo.jpg" alt="home page link" />
 </picture>
 
@@ -56,30 +56,29 @@
 
 <div class="gallery">
     <div id="contact_text">
-        <p>ready to make something great together? </p> 
+        <p>ready to make something great together? </p>
         <p> fill out the form or <a href="mailto:rbthales@gmail.com">email me</a> and i'll get back to you right away.</p>
     </div>
 
-    <form action="https://formspree.io/rbthales@gmail.com"
-          method="POST" id="contact_form">
-        <div id="name">
-            <label>name</label>
-            <input type="text" name="name" placeholder="what's your name?" required>
+    <form action="https://formspree.io/rbthales@gmail.com" method="POST" id="contact_form">
+        <div>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" placeholder="what's your name?" required>
         </div>
 
-        <div id="email"> 
-            <label>email</label>
-            <input type="email" name="_replyto" placeholder="what's your email?" required>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="_replyto" placeholder="what's your email?" required>
         </div>
 
-        <div id="message">
-            <label>message</label>
-            <textarea type="text" name="message" placeholder="what's up?" required></textarea>
+        <div>
+            <label for="message">message</label>
+            <textarea id="message" name="message" placeholder="what's up?" required></textarea>
         </div>
-        <div class="send">
+        <div>
             <button type="submit">send message</button>
         </div>
-        
+
         <input type="hidden" name="_next" value="contact.html" />
     </form>
 </div>
@@ -92,9 +91,7 @@
         <a href="about.html">about</a>
         <a href="contact.html">contact</a>
         <span>*im just sitting here looking at pretty colours.</span>
-    </footer>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    </footer>    
 </body>
 
 </html>
