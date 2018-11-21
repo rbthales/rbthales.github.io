@@ -79,6 +79,10 @@ h2 {
   h2 {
     font-size: 2.2em; } }
 
+.invert {
+  filter: invert(100%);
+  background: black; }
+
 footer {
   text-align: center;
   font-size: 0.8em;
@@ -107,7 +111,7 @@ footer {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: white; }
+  background: white; }
 
 .main-nav {
   overflow: hidden;
@@ -168,6 +172,9 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: contain; }
+  .gallery-item video {
+    width: 100%;
+    height: 100%; }
   .gallery-item span {
     font-size: 1.5em;
     color: white;
@@ -262,23 +269,22 @@ form {
   form {
     padding-top: 0; } }
 
-.video-container {
-  overflow: hidden;
-  padding-top: 56.25%;
+.iframe-container {
   position: relative;
-  height: 0; }
-  .video-container iframe {
-    border: 0;
-    height: 100%;
-    left: 0;
+  height: 0;
+  overflow: hidden; }
+  .iframe-container iframe {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    padding-top: 75%; }
+    height: 100%; }
 
-video {
-  height: 100%;
-  width: 100%; }
+.iframe-container-4x3 {
+  padding-top: 75%; }
+
+.iframe-container-16x9 {
+  padding-top: 56.25%; }
 
 #digital-paintings :nth-child(1) {
   grid-column: 2 / 10;
@@ -458,27 +464,27 @@ video {
 
 #videos :nth-child(1) {
   grid-column: 2 / 10;
-  grid-row: 1 / 6; }
+  grid-row: 1 / 7; }
 
 #videos :nth-child(2) {
-  grid-column: 12 / 21;
-  grid-row: 2 / 10; }
+  grid-column: 12 / 24;
+  grid-row: 2 / 8; }
 
 #videos :nth-child(3) {
   grid-column: 1 / 10;
-  grid-row: 7 / 15; }
+  grid-row: 8 / 15; }
 
 #videos :nth-child(4) {
   grid-column: 11 / 20;
-  grid-row: 11 / 20; }
+  grid-row: 11 / 17; }
 
 #videos :nth-child(5) {
   grid-column: 4 / 15;
-  grid-row: 18/ 24; }
+  grid-row: 18/ 25; }
 
 #videos :nth-child(6) {
-  grid-column: 1/ 10;
-  grid-row: 25/30; }
+  grid-column: 8/ 22;
+  grid-row: 26/34; }
 
 #videos :nth-child(7) {
   grid-column: 11/ 21;
