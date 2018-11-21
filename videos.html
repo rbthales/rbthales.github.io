@@ -24,13 +24,11 @@
 <nav class="navbar">
 
     <a href="index.html" class="logo">
-        
-<picture>
-    <source srcset="images/logo.webp" type="image/webp" />
-    <source srcset="images/logo.jpg" type="image/jpeg" />
-    <img src="images/logo.jpg" alt="home page link" />
-</picture>
-
+        <picture>
+            <source srcset="images/logo.webp" type="image/webp"/>
+            <source srcset="images/logo.png" type="image/png" />
+            <img src="images/logo.png" alt="home page link"/>
+        </picture>
     </a>
     <span class="navbar-toggle" id="js-navbar-toggle">+</span>
     <ul class="main-nav" id="js-menu">
@@ -96,9 +94,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/digital-painting.webp" type="image/webp" />
-    <source srcset="images/thumbs/digital-painting.jpg" type="image/jpeg" />
-    <img src="images/thumbs/digital-painting.jpg" alt="Digital Painting link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/digital-painting-large.webp, images/thumbs/digital-painting-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/digital-painting-medium.webp, images/thumbs/digital-painting-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/digital-painting-small.webp, images/thumbs/digital-painting-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/digital-painting-large.jpg, images/thumbs/digital-painting-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/digital-painting-medium.jpg, images/thumbs/digital-painting-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/digital-painting-small.jpg, images/thumbs/digital-painting-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/digital-painting-small.jpg" alt="Digital Painting link" />
 </picture>
 
 
@@ -114,9 +129,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/mixed-media.webp" type="image/webp" />
-    <source srcset="images/thumbs/mixed-media.jpg" type="image/jpeg" />
-    <img src="images/thumbs/mixed-media.jpg" alt="Mixed Media link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/mixed-media-large.webp, images/thumbs/mixed-media-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/mixed-media-medium.webp, images/thumbs/mixed-media-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/mixed-media-small.webp, images/thumbs/mixed-media-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/mixed-media-large.jpg, images/thumbs/mixed-media-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/mixed-media-medium.jpg, images/thumbs/mixed-media-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/mixed-media-small.jpg, images/thumbs/mixed-media-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/mixed-media-small.jpg" alt="Mixed Media link" />
 </picture>
 
 
@@ -132,9 +164,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/dada-poems.webp" type="image/webp" />
-    <source srcset="images/thumbs/dada-poems.jpg" type="image/jpeg" />
-    <img src="images/thumbs/dada-poems.jpg" alt="Twitter Dada Poems link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/dada-poems-large.webp, images/thumbs/dada-poems-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/dada-poems-medium.webp, images/thumbs/dada-poems-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/dada-poems-small.webp, images/thumbs/dada-poems-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/dada-poems-large.jpg, images/thumbs/dada-poems-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/dada-poems-medium.jpg, images/thumbs/dada-poems-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/dada-poems-small.jpg, images/thumbs/dada-poems-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/dada-poems-small.jpg" alt="Twitter Dada Poems link" />
 </picture>
 
 
@@ -150,9 +199,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/photography.webp" type="image/webp" />
-    <source srcset="images/thumbs/photography.jpg" type="image/jpeg" />
-    <img src="images/thumbs/photography.jpg" alt="Photography link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/photography-large.webp, images/thumbs/photography-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/photography-medium.webp, images/thumbs/photography-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/photography-small.webp, images/thumbs/photography-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/photography-large.jpg, images/thumbs/photography-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/photography-medium.jpg, images/thumbs/photography-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/photography-small.jpg, images/thumbs/photography-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/photography-small.jpg" alt="Photography link" />
 </picture>
 
 
@@ -168,9 +234,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/screen-prints.webp" type="image/webp" />
-    <source srcset="images/thumbs/screen-prints.jpg" type="image/jpeg" />
-    <img src="images/thumbs/screen-prints.jpg" alt="screen prints link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/screen-prints-large.webp, images/thumbs/screen-prints-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/screen-prints-medium.webp, images/thumbs/screen-prints-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/screen-prints-small.webp, images/thumbs/screen-prints-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/screen-prints-large.jpg, images/thumbs/screen-prints-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/screen-prints-medium.jpg, images/thumbs/screen-prints-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/screen-prints-small.jpg, images/thumbs/screen-prints-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/screen-prints-small.jpg" alt="screen prints link" />
 </picture>
 
 

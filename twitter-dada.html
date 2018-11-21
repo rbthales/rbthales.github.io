@@ -24,13 +24,11 @@
 <nav class="navbar">
 
     <a href="index.html" class="logo">
-        
-<picture>
-    <source srcset="images/logo.webp" type="image/webp" />
-    <source srcset="images/logo.jpg" type="image/jpeg" />
-    <img src="images/logo.jpg" alt="home page link" />
-</picture>
-
+        <picture>
+            <source srcset="images/logo.webp" type="image/webp"/>
+            <source srcset="images/logo.png" type="image/png" />
+            <img src="images/logo.png" alt="home page link"/>
+        </picture>
     </a>
     <span class="navbar-toggle" id="js-navbar-toggle">+</span>
     <ul class="main-nav" id="js-menu">
@@ -75,12 +73,29 @@
                 <!--  TODO: optimise these images -->
                 <div class="gallery-item" id="art-dada-poem">
                     
-<a href="images/work/twitter-dada-poems/art-dada-poem-large.jpg" data-fancybox data-caption="&amp;quot;art&amp;quot; digital, 2018" class="no-barba">
+<a href="images/work/twitter-dada-poems/art-dada-poem-original.jpg" data-fancybox data-caption="&amp;quot;art&amp;quot; digital, 2018" class="no-barba">
     
 <picture>
-    <source srcset="images/work/twitter-dada-poems/art-dada-poem.webp" type="image/webp" />
-    <source srcset="images/work/twitter-dada-poems/art-dada-poem.jpg" type="image/jpeg" />
-    <img src="images/work/twitter-dada-poems/art-dada-poem.jpg" alt="&amp;quot;art&amp;quot; digital, 2018" />
+    <!-- webp responsive images -->
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem-large.webp, images/work/twitter-dada-poems/art-dada-poem-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem-medium.webp, images/work/twitter-dada-poems/art-dada-poem-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem-small.webp, images/work/twitter-dada-poems/art-dada-poem-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem-large.jpg, images/work/twitter-dada-poems/art-dada-poem-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem-medium.jpg, images/work/twitter-dada-poems/art-dada-poem-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/work/twitter-dada-poems/art-dada-poem-small.jpg, images/work/twitter-dada-poems/art-dada-poem-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/work/twitter-dada-poems/art-dada-poem-small.jpg" alt="&amp;quot;art&amp;quot; digital, 2018" />
 </picture>
 
 </a>
@@ -89,12 +104,29 @@
 
                 <div class="gallery-item" id="brexit-dada-poem">
                     
-<a href="images/work/twitter-dada-poems/brexit-dada-poem-large.jpg" data-fancybox data-caption="&amp;quot;brexit&amp;quot; digital, 2018" class="no-barba">
+<a href="images/work/twitter-dada-poems/brexit-dada-poem-original.jpg" data-fancybox data-caption="&amp;quot;brexit&amp;quot; digital, 2018" class="no-barba">
     
 <picture>
-    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem.webp" type="image/webp" />
-    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem.jpg" type="image/jpeg" />
-    <img src="images/work/twitter-dada-poems/brexit-dada-poem.jpg" alt="&amp;quot;brexit&amp;quot; digital, 2018" />
+    <!-- webp responsive images -->
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem-large.webp, images/work/twitter-dada-poems/brexit-dada-poem-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem-medium.webp, images/work/twitter-dada-poems/brexit-dada-poem-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem-small.webp, images/work/twitter-dada-poems/brexit-dada-poem-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem-large.jpg, images/work/twitter-dada-poems/brexit-dada-poem-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem-medium.jpg, images/work/twitter-dada-poems/brexit-dada-poem-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/work/twitter-dada-poems/brexit-dada-poem-small.jpg, images/work/twitter-dada-poems/brexit-dada-poem-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/work/twitter-dada-poems/brexit-dada-poem-small.jpg" alt="&amp;quot;brexit&amp;quot; digital, 2018" />
 </picture>
 
 </a>
@@ -103,12 +135,29 @@
 
                 <div class="gallery-item" id="fake-news-dada-poem">
                     
-<a href="images/work/twitter-dada-poems/fake-news-dada-poem-large.jpg" data-fancybox data-caption="&amp;quot;fake news&amp;quot; digital, 2018" class="no-barba">
+<a href="images/work/twitter-dada-poems/fake-news-dada-poem-original.jpg" data-fancybox data-caption="&amp;quot;fake news&amp;quot; digital, 2018" class="no-barba">
     
 <picture>
-    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem.webp" type="image/webp" />
-    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem.jpg" type="image/jpeg" />
-    <img src="images/work/twitter-dada-poems/fake-news-dada-poem.jpg" alt="&amp;quot;fake news&amp;quot; digital, 2018" />
+    <!-- webp responsive images -->
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem-large.webp, images/work/twitter-dada-poems/fake-news-dada-poem-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem-medium.webp, images/work/twitter-dada-poems/fake-news-dada-poem-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem-small.webp, images/work/twitter-dada-poems/fake-news-dada-poem-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem-large.jpg, images/work/twitter-dada-poems/fake-news-dada-poem-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem-medium.jpg, images/work/twitter-dada-poems/fake-news-dada-poem-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/work/twitter-dada-poems/fake-news-dada-poem-small.jpg, images/work/twitter-dada-poems/fake-news-dada-poem-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/work/twitter-dada-poems/fake-news-dada-poem-small.jpg" alt="&amp;quot;fake news&amp;quot; digital, 2018" />
 </picture>
 
 </a>
@@ -127,9 +176,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/digital-painting.webp" type="image/webp" />
-    <source srcset="images/thumbs/digital-painting.jpg" type="image/jpeg" />
-    <img src="images/thumbs/digital-painting.jpg" alt="Digital Painting link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/digital-painting-large.webp, images/thumbs/digital-painting-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/digital-painting-medium.webp, images/thumbs/digital-painting-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/digital-painting-small.webp, images/thumbs/digital-painting-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/digital-painting-large.jpg, images/thumbs/digital-painting-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/digital-painting-medium.jpg, images/thumbs/digital-painting-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/digital-painting-small.jpg, images/thumbs/digital-painting-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/digital-painting-small.jpg" alt="Digital Painting link" />
 </picture>
 
 
@@ -145,9 +211,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/mixed-media.webp" type="image/webp" />
-    <source srcset="images/thumbs/mixed-media.jpg" type="image/jpeg" />
-    <img src="images/thumbs/mixed-media.jpg" alt="Mixed Media link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/mixed-media-large.webp, images/thumbs/mixed-media-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/mixed-media-medium.webp, images/thumbs/mixed-media-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/mixed-media-small.webp, images/thumbs/mixed-media-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/mixed-media-large.jpg, images/thumbs/mixed-media-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/mixed-media-medium.jpg, images/thumbs/mixed-media-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/mixed-media-small.jpg, images/thumbs/mixed-media-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/mixed-media-small.jpg" alt="Mixed Media link" />
 </picture>
 
 
@@ -165,9 +248,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/photography.webp" type="image/webp" />
-    <source srcset="images/thumbs/photography.jpg" type="image/jpeg" />
-    <img src="images/thumbs/photography.jpg" alt="Photography link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/photography-large.webp, images/thumbs/photography-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/photography-medium.webp, images/thumbs/photography-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/photography-small.webp, images/thumbs/photography-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/photography-large.jpg, images/thumbs/photography-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/photography-medium.jpg, images/thumbs/photography-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/photography-small.jpg, images/thumbs/photography-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/photography-small.jpg" alt="Photography link" />
 </picture>
 
 
@@ -183,9 +283,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/screen-prints.webp" type="image/webp" />
-    <source srcset="images/thumbs/screen-prints.jpg" type="image/jpeg" />
-    <img src="images/thumbs/screen-prints.jpg" alt="screen prints link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/screen-prints-large.webp, images/thumbs/screen-prints-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/screen-prints-medium.webp, images/thumbs/screen-prints-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/screen-prints-small.webp, images/thumbs/screen-prints-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/screen-prints-large.jpg, images/thumbs/screen-prints-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/screen-prints-medium.jpg, images/thumbs/screen-prints-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/screen-prints-small.jpg, images/thumbs/screen-prints-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/screen-prints-small.jpg" alt="screen prints link" />
 </picture>
 
 
@@ -201,9 +318,26 @@
 
     
 <picture>
-    <source srcset="images/thumbs/videos.webp" type="image/webp" />
-    <source srcset="images/thumbs/videos.jpg" type="image/jpeg" />
-    <img src="images/thumbs/videos.jpg" alt="videos link" />
+    <!-- webp responsive images -->
+    <source srcset="images/thumbs/videos-large.webp, images/thumbs/videos-large@2x.webp 2x" 
+            media="(min-width: 992px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/videos-medium.webp, images/thumbs/videos-medium@2x.webp 2x" 
+            media="(min-width: 768px)"
+            type="image/webp" />
+    <source srcset="images/thumbs/videos-small.webp, images/thumbs/videos-small@2x.webp 2x" 
+            type="image/webp" />
+    <!-- jpeg responsive images -->
+    <source srcset="images/thumbs/videos-large.jpg, images/thumbs/videos-large@2x.jpg 2x" 
+            media="(min-width: 992px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/videos-medium.jpg, images/thumbs/videos-medium@2x.jpg 2x" 
+            media="(min-width: 768px)"
+            type="image/jpeg" />
+    <source srcset="images/thumbs/videos-small.jpg, images/thumbs/videos-small@2x.jpg 2x" 
+            type="image/jpeg" />
+    <!-- fallback -->
+    <img src="images/thumbs/videos-small.jpg" alt="videos link" />
 </picture>
 
 
