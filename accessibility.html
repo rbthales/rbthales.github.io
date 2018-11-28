@@ -7,15 +7,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" href="favicon.ico" type="image/png">
     
 <meta name="description" content="">
 <title>robert hales | accessibility</title>
 
-
-    <link rel="stylesheet" href="css/styles.min.css">
-    <script src="js/main.min.js" async></script>
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    
+    <link rel="stylesheet" href="css/styles.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    
+    <script src="js/main.min.js"></script>
+
 </head>
 
 <body>
@@ -52,9 +60,19 @@
 
 <h1>accessibility</h1>
 
-<div class="ggallery">
-    <div>
-        <a id="invert">invert</a>
+<div class="gallery" id="accessibility">
+    <div class="gallery-item">
+        <p>
+            if you require extra accessibility features please click the links below to toggle them on and off.
+        </p>
+        <ul>
+            <li>
+                <a id="invert">invert</a>
+            </li>
+            <li>
+                <a id="high-contrast">high contrast</a>
+            </li>
+        </ul>
     </div>
 </div>
 
@@ -67,7 +85,7 @@
         <a href="contact.html">contact</a>
         <a href="accessibility.html">accessiblity</a>
         <span>*im just sitting here looking at pretty colours.</span>
-    </footer>    
+    </footer>
 </body>
 
 </html>
